@@ -1,0 +1,7 @@
+var e= new KeyboardEvent('keydown',{
+ctrlKey: 'true'
+})
+
+setInterval(function(){
+document.dispatchEvent(e);
+},50)
